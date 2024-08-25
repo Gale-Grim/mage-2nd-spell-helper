@@ -1,0 +1,14 @@
+[build]
+  command = "quasar build"  # Command to build your project for production
+  publish = "dist/spa"      # Directory where the built files are located
+
+[build.environment]
+  NODE_VERSION = "16"        # Ensure you're using a compatible Node.js version
+  NPM_VERSION = "8"          # The npm version used
+
+[context.production]
+  command = "quasar build"   # Reconfirming the build command for production
+
+# Uncomment this if you need to use any specific plugins or configurations.
+# [[plugins]]
+#   package = "@netlify/plugin-lighthouse"  # Example plugin for performance checks (optional)
