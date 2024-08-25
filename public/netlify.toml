@@ -1,5 +1,5 @@
 [build]
-  command = "npx quasar build"  # Command to build your project for production
+  command = "quasar build"  # Command to build your project for production
   publish = "dist/spa"      # Directory where the built files are located
 
 [build.environment]
